@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding-top: 800px;
+    text-align: center;
 }
 
 .profile {
@@ -92,19 +93,20 @@ p {
 }
 
 .menu {
-    list-style: none;
+    margin-top: 0px;
+    top: 0px;
     position: fixed;
-    top: 5px;
-    right: 30px;
+    list-style: none;
     cursor: pointer;
     z-index: 10;
+    background: white;
 
-
+    width: 100%;
 
 }
 
 .links {
-    float: left;
+    display: inline;
     color: bisque;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -118,6 +120,7 @@ p {
 .links:hover {
 
     background-color: chocolate;
+    font-size: 25px;
 }
 
 #videos {
@@ -141,4 +144,33 @@ a {
 
 .article:hover {
     color: aqua;
+}
+
+#writings a {
+    text-decoration: underline ! important;
+    text-shadow: none ! important;
+    color: blue ! important;
+}
+
+#contacts {
+
+    background: firebrick;
+}
+
+#contacts iframe {
+
+    width: 100%;
+}
+
+.contact_1 a {
+    color: aliceblue;
+    text-shadow: none;
+
+}
+
+
+.contact_1 h3 {
+
+    display: inline;
+
 }
